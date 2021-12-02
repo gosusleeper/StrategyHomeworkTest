@@ -1,6 +1,13 @@
 import java.util.HashMap;
 import java.util.Objects;
 
+/**
+ * Name: David DeBow
+ * Date: 11/28/2021
+ * Explanation: The super class of the monsters. Responsible for xp, hp, and items.
+ * Title: Monster.java
+ **/
+
 public class Monster {
 
     private Integer hp;

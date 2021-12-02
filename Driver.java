@@ -2,6 +2,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Name: David DeBow
+ * Date: 11/28/2021
+ * Explanation: Drives the Imp.java and Kobold.java classes.
+ * Title: Driver.java
+ **/
+
 public class Driver {
 
     public static void  main (String[] args)   {
