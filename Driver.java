@@ -1,3 +1,7 @@
+import Monsters.Imp;
+import Monsters.Kobold;
+import Monsters.Monster;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -5,7 +9,7 @@ import java.util.List;
 /**
  * Name: David DeBow
  * Date: 11/28/2021
- * Explanation: Drives the Imp.java and Kobold.java classes.
+ * Explanation: Drives the Monsters.Imp.java and Monsters.Kobold.java classes.
  * Title: Driver.java
  **/
 
@@ -20,6 +24,12 @@ public class Driver {
 
         for (Monster m: monsters){
             System.out.println(m);
+        }
+
+        while ((monsters.get(0).getMaxHP() > 0 && (monsters.get(1).getHp() > 0 ))){
+            System.out.println(monsters.get(0).attackTarget(monsters.get(1)));
+            System.out.println(monsters.get(1).attackTarget(monsters.get(0)));
+
         }
     }
 }

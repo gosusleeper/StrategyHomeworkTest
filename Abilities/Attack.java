@@ -1,8 +1,12 @@
+package Abilities;
+
+import Monsters.Monster;
+
 /**
  * Name: David DeBow
  * Date: 12/2/2021
  * Explanation:  Interface attack extends ability.
- * File Name: Attack.java
+ * File Name: Abilities.Attack.java
  **/
 
 public interface Attack extends Ability {
